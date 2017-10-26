@@ -1,15 +1,28 @@
-This is me following Mackenzie Child's blog tutorial from his 12 week challenge.
+== README
 
-Go follow Mackenzie Child for his great tutorials!
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Twitter:
-http://twitter.com/mackenziechild
+Things you may want to cover:
 
-Website:
-http://mackenziechild.me
+* Ruby version
 
-Original Video:
-https://youtu.be/BI_VnnOLSKY
+* System dependencies
 
-Original Repo:
-https://github.com/mackenziechild/blog
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
