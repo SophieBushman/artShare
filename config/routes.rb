@@ -5,7 +5,10 @@ Rails.application.routes.draw do
   end
 
   root 'home#home'
-  
+
+  get 'profile' => 'pages#profile'
+  root 'posts#index'
+
   get 'about' => 'pages#about'
   
 end
