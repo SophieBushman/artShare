@@ -1,5 +1,8 @@
-<% @post.each do |post| %>
-<!-- <div class="rainbow">
+<div class="HomeTitle">
+  <h1>Pixel Palette</h1>
+  <h4>A place to share your palette with the world!</h4>
+</div>
+<div class="rainbow">
   <div class="line line-1"></div>
   <div class="line line-2"></div>
   <div class="line line-3"></div>
@@ -20,9 +23,4 @@
   <div class="line line-18"></div>
   <div class="line line-19"></div>
   <div class="dot"></div>
-</div> -->
-    <div class="post_wrapper">
-        <h2 class="title"><%= link_to post.title, post%></h2>
-        <p class="date"><%= post.created_at.strftime("%B, %d, %Y") %></p>
-    </div>
-<% end %>
+</div>
