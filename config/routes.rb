@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  get 'profile' => 'pages#profile'
   root 'posts#index'
   
   get 'about' => 'pages#about'
