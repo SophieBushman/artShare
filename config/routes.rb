@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   end
 
   get 'profile' => 'pages#profile'
-  root 'posts#index'
+  get 'posts#index'
   
   get 'about' => 'pages#about'
   
