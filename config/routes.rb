@@ -7,9 +7,8 @@ Rails.application.routes.draw do
   root 'home#home'
 
   get 'profile' => 'pages#profile'
-  get 'posts#index'
+  # get 'posts' => 'posts#index'
   
-  root 'posts#index'
 
   get 'about' => 'pages#about'
   
