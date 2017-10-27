@@ -4,8 +4,10 @@ Rails.application.routes.draw do
     resources :comments
   end
 
-  root 'posts#index'
+  root 'home#home'
   
   get 'about' => 'pages#about'
   
 end
+
+
