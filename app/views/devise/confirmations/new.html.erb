@@ -8,7 +8,9 @@
 
   <div class="field">
     <%= f.label :email %><br />
+    <div style="color: black;">
     <%= f.email_field :email, autofocus: true, value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email) %> 
+    </div>
   </div>
 
   <div class="actions">

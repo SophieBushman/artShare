@@ -7,7 +7,9 @@
 
   <div class="field">
     <%= f.label :email %><br />
+    <div style="color: black;">
     <%= f.email_field :email, autofocus: true %>
+    </div>
   </div>
   <br>
 
@@ -17,17 +19,23 @@
   <br>
   <div class="field">
     <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <div style="color: black;">
     <%= f.password_field :password, autocomplete: "off" %>
+    </div>
   </div>
   <br>
   <div class="field">
     <%= f.label :password_confirmation %><br />
+    <div style="color: black;">
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
+    </div>
   </div>
   <br>
   <div class="field">
     <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <div style="color: black;">
     <%= f.password_field :current_password, autocomplete: "off" %>
+    </div>
   </div>
   <br>  
   <div class="actions">

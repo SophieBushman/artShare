@@ -1,6 +1,7 @@
 class ProfileController < ApplicationController
 
 	def profile
+		p "current_user", current_user
     end
 
      def create
