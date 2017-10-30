@@ -1,9 +1,15 @@
 <%= form_for([@post, @post.comments.build]) do |f| %>
+	
 	<%= f.label :name %><br>
+	<div style="color: black;">
 	<%= f.text_field :name %><br>
+	</div>
 	<br>
 	<%= f.label :body %><br>
+	<div style="color: black;">
 	<%= f.text_area :body %><br>
+	<%= link_to image_tag(@post.image.url(:med)), @post.image.url %>
+	</div>
 	<br>
 	<%= f.submit %>
 <% end %>

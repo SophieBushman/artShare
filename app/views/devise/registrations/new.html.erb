@@ -7,13 +7,17 @@
    
   <div class="field">
     <%= f.label :username %>
+    <div style="color: black;">
     <%= f.text_field :username %>
+    </div>
   </div>  
   <br>
     
   <div class="field">
     <%= f.label :email %><br />
+    <div style="color: black;">
     <%= f.email_field :email, autofocus: true %>
+    </div>
   </div>
   <br>
 
@@ -22,13 +26,17 @@
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
+    <div style="color: black;">
     <%= f.password_field :password, autocomplete: "off" %>
+    </div>
   </div>
   <br>
 
   <div class="field">
     <%= f.label :password_confirmation %><br />
+    <div style="color: black;">
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
+    </div>
   </div>
   <br>
 

@@ -1,6 +1,13 @@
 <div id="page_wrapper">
 <div id="contnent">
-	<h1> <%= :username %> </h1>
+	<div style="color: white">
+	<p> Username: <%= current_user.username %> </p>
+	<p> User Email: <%= current_user.email %> </p>
+	<p> <% current_user.posts.each do |post| %> </p>
+	
+	<% end %>
+
+	</div>
 </div>
 
 
